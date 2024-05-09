@@ -14,6 +14,8 @@ font-size: 0;}
 /*Botão hamburguer*/
 .btn-menu {width: 56px; height: 56px; float: right; text-align: center; color: #fff; border-radius: 56px; cursor: pointer; background: linear-gradient(to right, #ce2e3c, #da6709);} 
 
+/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+
 /*MENU*/
 .menu{display: none; width: 100%; height: 100%; position: fixed; background-color: rgba(0,0,0,0.9); top: 0; left: 0;}
 .btn-close{font-size: 1.5em; color: #fff; float: right; cursor: pointer; margin: 2% 3% 0 0;}
@@ -21,6 +23,8 @@ font-size: 0;}
 .menu li {padding: 1.5%}
 .menu li a {font-size: 2em; color: #fff; padding: 1.5% 3%;} /*Formantando as fontes dos links.*/
 .menu li a:hover {border:  1px solid #da6709;}              /*Retângulo laranja envolvendo os links.*/
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*BANNER*/
 /*Inserindo e configurando a imagem do banner.*/
@@ -39,16 +43,20 @@ font-size: 0;}
 /*Botão sobre.*/
 .btn-sobre {width: 100%; font-size: 1.5em; text-align: left; cursor: pointer; padding: 5%; border-radius: 10px; background-color: #130400; color: #fff; margin-top: 2%;}
 
+/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+
 /*SERVIÇOS*/
 /*Arrendondando bordas, justificando texto*/
 .servicos {width: 100%; float: left; padding: 3% 4%;}
-.servico {width:  100%; background-color: #fff; text-align: left; border-radius: 7px; margin-bottom: 3%;}
+.servico {width:  100%; background-color: #fff; text-align: justify; border-radius: 7px; margin-bottom: 3%;}
 .servico img {border-radius: 7px 7px 0 0; }
 /*Formatando texto.*/
 .inner {padding: 7%;}
 .inner a {font-size: 1.5em; color: #130400; font-weight: 700;}  /*Formatando o título do texto.*/
 .inner h4 {font-size: 1.2em; color: #130400; margin-top: 2%;}   /*Formatando o subtitulo.*/
 .inner p {margin-top: 6%; color: #130400; line-height: 1.5e,;}  /*Formatando o texto.*/
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*NEWSLETTER*/
 .newsletter {width: 100%;; float: left; text-align: center; padding: 3% 4%; background-color: #130400;}
@@ -59,9 +67,14 @@ font-size: 0;}
 .newsletter input {width: 100%; background-color: #130400; columns: rgba(255,255,255,0.3); border: 1px solid #fff; padding: 5%; border-radius: 5px;}
 .newsletter button {width: 100%; background-color: #fff; color: #130400; padding: 5%; border-radius: 5px; cursor: pointer; margin-top: 2%;}
 
+/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+
 /*OPINIÕES DOS VISITANTES*/
-#opinions {display: flex; flex-wrap: wrap; justify-contente: center}
-#opinions > article {display: flex; flex-direcion: column; align-items: center; width: 800px; background-color: rgb(78,43,160); color: white; border-radius: 10px; padding: 1rem;}
+
+#opinion {display: flex; flex-wrap: wrap; justify-contente: center}
+#opinion > article {display: flex; flex-direction: column; align-items: center; width: 800px; background-color:  ; color: blue; border-radius: 10px; padding: 1rem;}
+#opinion > article > img {width: 15rem; clip-path: circle();}
+/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*RODAPÉ*/
 .rodape {width: 100%; float: left; padding: 3% 4%; text-align: center; background-color: #da6709;}
@@ -73,6 +86,8 @@ font-size: 0;}
 .social-icons a:hover{color: rgb(255,255,255);}
 /*Formatando o copyright.*/
 .copyright {margin-top: 2%; color: rgba(255,255,255,0.7);}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*===== MOBILE FIRST =====*/
 /* SMALL DEVICES - SMARTPHONES */
