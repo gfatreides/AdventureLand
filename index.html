@@ -16,7 +16,9 @@
 		<!--Familia de fontes a ser usada (Google Font).-->
 		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
 		<!--Ícone (FontAwesome)-->                
-		<link rel="icon" href="imagens/icone_parque.jpg">   							<!--Configurando o caminho do ícone.>              
+		<link rel="icon" href="imagens/icone_parque.jpg">   	
+		<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script> <!--Exibição e ocultação do menu.-->
+		<!--Configurando o caminho do ícone.>              
 	</head>
 
 	<body>
@@ -40,11 +42,11 @@
 			</nav>
 		</header>
 		<!--Ação do botão x-->
-		<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-		<script>$(".btn-menu").click(function(){});
-				$(".menu").show();
-				$(".btn-close").click(function(){});
-				$(".menu").hide();
+		<script>
+		//$(".btn-menu").click(function(){});
+		//$(".menu").show();
+		//$(".btn-close").click(function(){});
+		//$(".menu").hide();
 		</script>
 	
 		<!--BANNER-->
@@ -116,7 +118,7 @@
 				que lembra os parques temáticos dos Estados Unidos."</p>
 				
 			
-				<img src="imagens/MichaelJackson.jpg" alt="Foto de Michel Jackson quando criança.">
+				<img src="imagens/MichaelJackson.jpg" alt="Foto de Michel Jackson quando criança." height="100" width="200">
 				<blockquote cite="htpps://www.pensador.com/parque_de_diversao/"><br>
 					<p>As pessoas me vêem em um parque de diversão, ou então com 
 					outras crianças, me divertindo, e elas nã param e pensam, a chamce de fazer as coisas diveritdas que as crianças
@@ -160,7 +162,6 @@
 			</p>
 		</footer>
 		<!--Jquery-->
-		<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script> <!--Exibição e ocultação do menu.-->
 		<script> 
 			$(".btn-menu").click(function() {$(".menu").show();})   
 			$(".btn-close").click(function() {$(".menu").hide();}) 
