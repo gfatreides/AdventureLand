@@ -62,8 +62,8 @@ font-size: 0;}
 
 /*MODIFICAÇÕES NAS IMAGENS*/
 .todas_imagens {display: flex; flex-wrap: wrap; justify-content: space-evenly; gap: 2vw; padding: 0 2vw;}
-.imagem {width: 340px; height: 340px; flex-grow: 1; transition: transform .5s linear;}
-.imagem:hover {transform: scale(0.5)}
+.imagem {width: 340px; height: 340px; flex-grow: 1; transition: transform 1.5s linear;}
+.imagem:hover {transform: scale(1.5)}
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------------*/
 
