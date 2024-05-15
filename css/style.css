@@ -77,7 +77,7 @@ title h3 {font-size: 1.5em; color: #5C4033;}
 /*OPINIÕES DOS VISITANTES*/
 
 #opinion {display: flex; flex-wrap: wrap; justify-contente: center}
-#opinion > article {display: flex; flex-direction: column; align-items: center; width: 800px; background-color:  ; color: blue; border-radius: 10px; padding: 1rem;}
+#opinion > article {text-align: justify; display: flex; flex-direction: column; align-items: center; width: 300px; background-color: #da6709; border-radius: 10px; padding: 1rem;}
 #opinion > article > img {width: 15rem; clip-path: circle();}
 /*-----------------------------------------------------------------------------------------------------------------------------------------------*/
 
