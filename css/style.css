@@ -6,7 +6,7 @@ a { text-decoration: none;}				/*Links*/
 ul {list-style: none;}
 img {max-width: 100%;}					/*Imagens.*/
 
-/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
 
 /*CABEÇALHO*/
 /*Definindo a largura em 100% para ocupar toda a tela*/
@@ -18,7 +18,7 @@ font-size: 0;}		/*Para não aparecer o texto.*/
 /*Botão hamburguer*/
 .btn-menu {width: 56px; height: 56px; float: right; text-align: center; color: #fff; border-radius: 56px; cursor: pointer; background: linear-gradient(to right, #ce2e3c, #da6709);} 
 
-/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
 
 /*MENU*/
 .menu{display: none; width: 100%; height: 100%; position: fixed; background-color: rgba(0,0,0,0.9); top: 0; left: 0;}
@@ -28,11 +28,11 @@ font-size: 0;}		/*Para não aparecer o texto.*/
 .menu li a {font-size: 2em; color: #fff; padding: 1.5% 3%;} /*Formantando as fontes dos links.*/
 .menu li a:hover {border: 1px solid #da6709;}              /*Retângulo laranja envolvendo os links.*/
 
-/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
 
 /*BANNER*/
 /*Inserindo e configurando a imagem do banner.*/
-.banner {width: 100%; float:left; text-align: center; padding: 3% 4%; background: url(../imagens/office.jpg); weight: 100%; no-repeat fixed; }
+.banner {width: 100%; float:left; text-align: center; padding: 3% 4%; background: url(../imagens/office.jpg); width: 100%;}
 .title {width: 100%;}
 .title h2 {font-size: 2.5em; color: #fff; font-weight: 700;}
 .title h3 {font-size: 1.5em; color: #fff}
@@ -48,7 +48,7 @@ title h3 {font-size: 1.5em; color: #5C4033;}
 /*Botão sobre.*/
 .btn-sobre {width: 100%; font-size: 1.5em; text-align: left; cursor: pointer; padding: 5%; border-radius: 10px; background-color: #130400; color: #fff; margin-top: 2%;}
 
-/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
 
 /*SERVIÇOS*/
 /*Arrendondando bordas, justificando texto*/
@@ -61,7 +61,7 @@ title h3 {font-size: 1.5em; color: #5C4033;}
 .inner h4 {font-size: 1.2em; color: #130400; margin-top: 2%;}   /*Formatando o subtitulo.*/
 .inner p {margin-top: 6%; color: #130400; line-height: 1.5em;}  /*Formatando o texto.*/
 
-/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
 
 /*NEWSLETTER*/
 .newsletter {width: 100%;; float: left; text-align: center; padding: 3% 4%; background-color: #130400;}
@@ -72,14 +72,14 @@ title h3 {font-size: 1.5em; color: #5C4033;}
 .newsletter input {width: 100%; background-color: #130400; columns: rgba(255,255,255,0.3); border: 1px solid #fff; padding: 5%; border-radius: 5px;}
 .newsletter button {width: 100%; background-color: #fff; color: #130400; padding: 5%; border-radius: 5px; cursor: pointer; margin-top: 2%;}
 
-/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
 
 /*OPINIÕES DOS VISITANTES*/
 
-#opinion {display: flex; flex-wrap: wrap; justify-contente: center}
+#opinion {display: flex; flex-wrap: wrap; justify-content: center}
 #opinion > article {text-align: justify; display: flex; flex-direction: column; align-items: center; width: 300px; background-color: #da6709; border-radius: 10px; padding: 1rem;}
 #opinion > article > img {width: 15rem; clip-path: circle();}
-/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
 
 /*RODAPÉ*/
 .rodape {width: 100%; float: left; padding: 3% 4%; text-align: center; background-color: #da6709;}
@@ -92,7 +92,7 @@ title h3 {font-size: 1.5em; color: #5C4033;}
 /*Formatando o copyright.*/
 .copyright {margin-top: 2%; color: rgba(255,255,255,0.7);}
 
-/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
 
 /*===== MOBILE FIRST =====*/
 /* SMALL DEVICES - SMARTPHONES */
