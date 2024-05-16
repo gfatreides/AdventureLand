@@ -50,67 +50,106 @@
     
     /*---------------------------------------------------------------------------------------------------------------------*/
 
+    /*FORMULÁRIOS DE CADASTRO*/
     /*Cor do fundo da página.*/
     body { background-color: whitesmoke;}
 
     /*Altura mínima da seção principal*/
     main { padding: 1rem; min-height: 100dvh;}
 
-    /*Seção principal do 1º registro.*/
-    #registro{display:flexbox; justify-content: left; margin: 4rem 0;}
-
     /* 1ª caixa de formulário de registro.*/
-    /*Organizando os ítens em coluna.*/
-    /*Cor de fundo do formulário*/
-    /*Cor da fonte*/
-    /*Distância entre as caixas de preenchimento.*/
-    #formulario_registro{display: flex; flex-direction: column; background-color: blue; color: white; height: fit-content;
-    padding: 2rem; border-radius: 10px; gap: 2rem;}
+    #formulario_registro{
+    display: flex;
+    flex-direction: column;        /*Organizando os ítens em coluna.*/
+    background-color: blue;     /*Cor de fundo do formulário*/
+    color: white;               /*Cor da fonte*/
+    height: fit-content;
+    padding: 2rem;
+    border-radius: 10px;
+    gap: 2rem;      /*Distância entre as caixas de preenchimento.*/
+}
 
-    .input-wrapper{display: flex; align-items: center;}
+    .input-wrapper{
+        display: flex;
+        align-items: center;
+    }
 
-    /*Aumenta o tamanho das caixas.*/
-    /*Fonte em negrito*/
-    /*Arrendondando bordas*/
-    .input-wrapper > input{flex-grow: 1; padding: 0.3 rem; font-weight: bold; border-radius: 5px;}
+    .input-wrapper > input{
+        flex-grow: 1;           /*Aumenta o tamanho das caixas.*/
+        padding: 0.3 rem;
+        font-weight: bold;      /*Fonte em negrito*/
+        border-radius: 5px;     /*Arrendondando bordas*/
+    }
 
-    /*Largura da caixa.*/
-    .input-wrapper > label {width: 130px; text-align: end; padding-right: 10px;}
+    .input-wrapper > label {
+        width: 130px;   /*Largura da caixa.*/
+        text-align: end;
+        padding-right: 10px;
+    }
 
-    #botão_registro{padding: 0.2rem; border-radius: 0.2; font-weight: bold; font-size: 1 rem; background-color: #f0f0f0 ;
-    color: rgb(6, 6, 56); border-radius: 5px;}
+    #botão_registro{
+        padding: 0.2rem;
+        border-radius: 0.2;
+        font-weight: bold;
+        font-size: 1 rem;
+        background-color: #f0f0f0 ;
+        color: rgb(6, 6, 56);
+        border-radius: 5px;     /*Arrendondando bordas*/
+    }
 
-    #botão_registro:hover {background-color: rgb(153, 153, 238); color: #7473df;}
+    #botão_registro:hover {
+        background-color: rgb(153, 153, 238);
+        color: #7473df
+    }
 
     /*Formantando o texto*/
-    /*Alinhando o texto*/ 
-    /*Cor da fonte*/
-    /*Texto justificado*/
-    /*Criando margem para o texto*/
-    #texto {display: flex; flex-direction: column; align-items: center; color: #190be4; text-align: justify;padding:10px;}
+    #texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;   /*Alinhando o texto*/ 
+        color: #190be4;     /*Cor da fonte*/
+        text-align: justify;  /*Texto justificado*/
+        padding: 10px;        /*Criando margem para o texto*/
+    }
 
-    /*2ª CAIXA DE FORMULÁRIO*/
     /*Seção principal do registro.*/
     /*Alinhando caixa à esquerda.*/
     /*Margem*/
-    #registro2{display: flex; justify-content: right; margin: 4rem 0;}
+    #registro2{
+        display: flex;
+        justify-content: center;    
+        margin: 4rem 0;           
+    }
 
-    /*Cor de fundo do formulário*/
-    /*Cor da fonte*/
-    /*Borda da caixa*/
-    /*Distância entre as caixas de preenchimento.*/
-    #formulario_registro2{flex-direction: column; background-color: blue; color: white; height: fit-content;
-    padding: 2rem; border-radius: 10px; gap: 2rem;}
+    #formulario_registro2{
+        flex-direction: column;
+        background-color: blue;     /*Cor de fundo do formulário*/
+        color: white;               /*Cor da fonte*/
+        height: fit-content;
+        padding: 2rem;
+        border-radius: 10px;    /*Borda da caixa*/
+        gap: 2rem;      /*Distância entre as caixas de preenchimento.*/
+    }
 
-    .input-wrapper2{display: flex; align-items: center;}
+    .input-wrapper2{
+        display: flex;
+        align-items: center;
+    }
 
-    /*Aumenta o tamanho das caixas.*/
-    /*Fonte em negrito*/
-    /*Arrendondando bordas*/
-    .input-wrapper2 > input{flex-grow: 1; padding: 0.3 rem; font-weight: bold; border-radius: 5px;}
+    .input-wrapper2 > input{
+        flex-grow: 1;           /*Aumenta o tamanho das caixas.*/
+        padding: 0.3 rem;
+        font-weight: bold;      /*Fonte em negrito*/
+        border-radius: 5px;     /*Arrendondando bordas*/
+    }
 
     /*Largura da caixa.*/
-    .input-wrapper2 > label {width: 130px; text-align: end; padding-right: 10px; gap: 2rem;}
+    .input-wrapper2 > label {
+        width: 130px;   
+        text-align: end;
+        padding-right: 10px;
+        gap: 2rem;
+    }
         
     /*NEWSLETTER*/
     .newsletter {width: 100%;; float: left; text-align: center; padding: 3% 4%; background-color: #130400;}
