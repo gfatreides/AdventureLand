@@ -25,131 +25,90 @@
     .btn-close{font-size: 3em; color: #fff; float: right; cursor: pointer; margin: 2% 3% 0 0;}
     .menu ul {width: 100%; float: left; text-align: center;}
     .menu li {padding: 1.5%;}
-    .menu li a {font-size: 2em; color: #fff; padding: 1.5% 3%;} /*Formantando as fontes dos links.*/
-    .menu li a:hover {border: 1px solid #da6709;}              /*Retângulo laranja envolvendo os links.*/
+	/*Formantando as fontes dos links.*/
+	/*Fonte do link em negrito.*/
+    .menu li a {font-weight: bold; font-size: 2em; color: #fff; padding: 1.5% 3%;} 
+    /*Retângulo laranja envolvendo os links.*/
+	.menu li a:hover {border: 1px solid #da6709;}              
     
     /*--------------------------------------------------------------------------------------------------------------------*/
     
     /*BANNER*/
-    /*Inserindo e configurando a imagem do banner.*/
-    .banner {width: 100%; float:left; text-align: center; padding: 3% 4%; background: url(../imagens/office.jpg); width: 100%;}
-    .title {width: 100%;}
-    .title h2 {font-size: 2.5em; color: #fff; font-weight: 700;}
-    .title h3 {font-size: 1.5em; color: #fff}
-    /*Textos.*/
-    title h2 {font-size: 2.5em; color: #5C4033; font-weight: 700;}
-    title h3 {font-size: 1.5em; color: #5C4033;}
-    /*Botões*/
-    .buttons {width: 100%; margin-top: 2%;}
-    /*Estilizando os botões individualmente.*/
-    .buttons i {float: right;}
-    /*Abaixo: botão cadastrar.*/
-    .btn-cadastrar {width: 100%; font-size: 1.5em; text-align: left; cursor: pointer; padding: 5%; border-radius: 10px; background-color: #fff; color: #130400;}
-    /*Botão sobre.*/
-    .btn-sobre {width: 100%; font-size: 1.5em; text-align: left; cursor: pointer; padding: 5%; border-radius: 10px; background-color: #130400; color: #fff; margin-top: 2%;}
-    
+	/*Inserindo e configurando a imagem do banner.*/
+	.banner {width: 100%; float:left; text-align: center; padding: 3% 4%; background: url(../imagens/office.jpg); width: 100%;}
+	.title {width: 100%;}
+	.title h2 {font-size: 2.5em; color: #fff; font-weight: 700;}
+	.title h3 {font-size: 1.5em; color: #fff}
+	/*Textos.*/
+	title h2 {font-size: 2.5em; color: #5C4033; font-weight: 700;}
+	title h3 {font-size: 1.5em; color: #5C4033;}
+	/*Botões*/
+	.buttons {width: 100%; margin-top: 2%;}
+	/*Estilizando os botões individualmente.*/
+	.buttons i {float: right;}
+	/*Abaixo: botão cadastrar.*/
+	.btn-cadastrar {width: 100%; font-size: 1.5em; text-align: left; cursor: pointer; padding: 5%; border-radius: 10px; background-color: #fff; color: #130400;}
+	/*Botão sobre.*/
+	.btn-sobre {width: 100%; font-size: 1.5em; text-align: left; cursor: pointer; padding: 5%; border-radius: 10px; background-color: #130400; color: #fff; margin-top: 2%;}
+		
     /*---------------------------------------------------------------------------------------------------------------------*/
 
     /*FORMULÁRIOS DE CADASTRO*/
     /*Cor do fundo da página.*/
-    body { background-color: whitesmoke;}
+    body {background-color: whitesmoke;}
 
     /*Altura mínima da seção principal*/
     main { padding: 1rem; min-height: 100dvh;}
 
     /* 1ª caixa de formulário de registro.*/
-    #formulario_registro{
-    display: flex;
-    flex-direction: column;        /*Organizando os ítens em coluna.*/
-    background-color: blue;     /*Cor de fundo do formulário*/
-    color: white;               /*Cor da fonte*/
-    height: fit-content;
-    padding: 2rem;
-    border-radius: 10px;
-    gap: 2rem;      /*Distância entre as caixas de preenchimento.*/
-}
+	/*Organizando os ítens em coluna.*/
+	/*Cor de fundo do formulário*/
+	/*Distância entre as caixas de preenchimento.*/
+	/*Cor da fonte*/
+    #formulario_registro{display: flex; flex-direction: column; background-color: blue; color: white; height: fit-content; padding: 2rem; border-radius: 10px; gap: 2rem;}
 
-    .input-wrapper{
-        display: flex;
-        align-items: center;
-    }
+    .input-wrapper{display: flex; align-items: center;}
 
-    .input-wrapper > input{
-        flex-grow: 1;           /*Aumenta o tamanho das caixas.*/
-        padding: 0.3 rem;
-        font-weight: bold;      /*Fonte em negrito*/
-        border-radius: 5px;     /*Arrendondando bordas*/
-    }
+	/*Aumenta o tamanho das caixas.*/
+	/*Fonte em negrito*/
+	/*Arrendondando bordas*/
+    .input-wrapper > input{flex-grow: 1; padding: 0.3 rem; font-weight: bold; border-radius: 5px;}
+	
+	/*Largura da caixa.*/
+    .input-wrapper > label{width: 130px; text-align: end; padding-right: 10px;}
+	
+	/*Arrendondando bordas*/
+    #botão_registro{padding: 0.2rem; border-radius: 0.2; font-weight: bold; font-size: 1 rem; background-color: #f0f0f0; color: rgb(6, 6, 56); border-radius: 5px;}
 
-    .input-wrapper > label {
-        width: 130px;   /*Largura da caixa.*/
-        text-align: end;
-        padding-right: 10px;
-    }
-
-    #botão_registro{
-        padding: 0.2rem;
-        border-radius: 0.2;
-        font-weight: bold;
-        font-size: 1 rem;
-        background-color: #f0f0f0 ;
-        color: rgb(6, 6, 56);
-        border-radius: 5px;     /*Arrendondando bordas*/
-    }
-
-    #botão_registro:hover {
-        background-color: rgb(153, 153, 238);
-        color: #7473df
-    }
+    #botão_registro:hover {background-color: rgb(153, 153, 238); color: #7473df}
 
     /*Formantando o texto*/
-    #texto {
-        display: flex;
-        flex-direction: column;
-        align-items: center;   /*Alinhando o texto*/ 
-        color: #190be4;     /*Cor da fonte*/
-        text-align: justify;  /*Texto justificado*/
-        padding: 10px;        /*Criando margem para o texto*/
-    }
+	/*Alinhando o texto*/
+	/*Cor da fonte*/
+	/*Texto justificado*/
+	/*Criando margem para o texto*/
+    #texto {display: flex; flex-direction: column; align-items: center; color: #190be4; text-align: justify; padding: 10px;}
 
     /*Seção principal do registro.*/
     /*Alinhando caixa à esquerda.*/
     /*Margem*/
-    #registro2{
-        display: flex;
-        justify-content: center;    
-        margin: 4rem 0;           
-    }
+    #registro2{display: flex; justify-content: center; margin: 4rem 0;}
+	
+	/*Cor de fundo do formulário*/
+	/*Cor da fonte*/
+	/*Borda da caixa*/
+	/*Distância entre as caixas de preenchimento.*/
+    #formulario_registro2{flex-direction: column; background-color: blue; color: white; height: fit-content; padding: 2rem; border-radius: 10px; gap: 2rem;}
 
-    #formulario_registro2{
-        flex-direction: column;
-        background-color: blue;     /*Cor de fundo do formulário*/
-        color: white;               /*Cor da fonte*/
-        height: fit-content;
-        padding: 2rem;
-        border-radius: 10px;    /*Borda da caixa*/
-        gap: 2rem;      /*Distância entre as caixas de preenchimento.*/
-    }
+    .input-wrapper2{display: flex; align-items: center;}
 
-    .input-wrapper2{
-        display: flex;
-        align-items: center;
-    }
-
-    .input-wrapper2 > input{
-        flex-grow: 1;           /*Aumenta o tamanho das caixas.*/
-        padding: 0.3 rem;
-        font-weight: bold;      /*Fonte em negrito*/
-        border-radius: 5px;     /*Arrendondando bordas*/
-    }
+	/*Aumenta o tamanho das caixas.*/
+	/*Fonte em negrito*/
+	/*Arrendondando bordas*/
+    .input-wrapper2 > input{flex-grow: 1; padding: 0.3 rem; font-weight: bold; border-radius: 5px;}
 
     /*Largura da caixa.*/
-    .input-wrapper2 > label {
-        width: 130px;   
-        text-align: end;
-        padding-right: 10px;
-        gap: 2rem;
-    }
+    .input-wrapper2 > label{width: 130px; text-align: end; padding-right: 10px; gap: 2rem;}
         
     /*NEWSLETTER*/
     .newsletter {width: 100%;; float: left; text-align: center; padding: 3% 4%; background-color: #130400;}

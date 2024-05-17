@@ -28,16 +28,17 @@ font-size: 0;}
 
 /*BANNER*/
 /*Inserindo e configurando a imagem do banner.*/
-.banner {width: 100%; float:left; text-align: center; padding: 9% 13%; background: url(../imagens/adventureland.jpg);}
+.banner {width: 100%; float:left; text-align: center; padding: 3% 4%; background: url(../imagens/office.jpg); width: 100%;}
 .title {width: 100%;}
-
+.title h2 {font-size: 2.5em; color: #fff; font-weight: 700;}
+.title h3 {font-size: 1.5em; color: #fff}
 /*Textos.*/
-/*.title h2 {font-size: 2.5em; color: #5C4033; font-weight: 700;}*/
-/*.title h3 {font-size: 1.5em; color: #5C4033;}*/
+title h2 {font-size: 2.5em; color: #5C4033; font-weight: 700;}
+title h3 {font-size: 1.5em; color: #5C4033;}
 /*Botões*/
 .buttons {width: 100%; margin-top: 2%;}
 /*Estilizando os botões individualmente.*/
-.buttons i {float: right;}  
+.buttons i {float: right;}
 /*Abaixo: botão cadastrar.*/
 .btn-cadastrar {width: 100%; font-size: 1.5em; text-align: left; cursor: pointer; padding: 5%; border-radius: 10px; background-color: #fff; color: #130400;}
 /*Botão sobre.*/
@@ -51,19 +52,24 @@ font-size: 0;}
 /*margin-bottom: cria uma margem entre as figuras e o que estiver em baixo*/
 .servico {width:  100%; background-color: #fff; text-align: left; border-radius: 7px; margin-bottom: 2%;}
 /*Cria as bordas superiores das imagens.*/
-.servico img {border-radius: 7px 7px 0 0; }
+.servico img {border-radius: 7px 7px 0 0; height: 500px; object-fit: cover; width: 700px;}
 /*Formatando texto.*/
 .inner {padding: 7%;}
-.inner a {font-size: 1.5em; color: #130400; font-weight: 700;}  /*Formatando o título do texto.*/
-.inner h4 {font-size: 1.2em; color: #130400; margin-top: 2%;}   /*Formatando o subtitulo.*/
-.inner p {margin-top: 6%; color: #130400; line-height: 1.5e,;}  /*Formatando o texto.*/
+/*Formatando o título do texto.*/
+.inner a {font-weight: bold; font-size: 1.5em; color: #130400; font-weight: 700;} 
+/*Formatando o subtitulo.*/
+.inner h4 {font-weight: bold; font-size: 1.2em; color: #130400; margin-top: 2%;}  
+/*Formatando o texto.*/ 
+.inner p {text-align: justify; margin-top: 6%; color: #130400; line-height: 1.5e,;}  
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*MODIFICAÇÕES NAS IMAGENS*/
-.todas_imagens {display: flex; flex-wrap: wrap; justify-content: space-evenly; gap: 2vw; padding: 0 2vw;}
+/*Aumentando a imagem quanto o curso passa sobre ela.*/
+/*Clicando sobre a imagem, ela abre em outra tela.*/
+/*.todas_imagens {display: flex; flex-wrap: wrap; justify-content: space-evenly; gap: 2vw; padding: 0 2vw;}
 .imagem {width: 340px; height: 340px; flex-grow: 1; transition: transform 1.5s linear;}
-.imagem:hover {transform: scale(1.5)}
+.imagem:hover {transform: scale(1.2)}*/
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------------*/
 
