@@ -21,7 +21,7 @@ font-size: 0;}
 .btn-close{font-size: 1.5em; color: #fff; float: right; cursor: pointer; margin: 2% 3% 0 0;}
 .menu ul {width: 100%; float: left; text-align: center;}
 .menu li {padding: 1.5%}
-.menu li a {font-size: 2em; color: #fff; padding: 1.5% 3%;} /*Formantando as fontes dos links.*/
+.menu li a {font-weight: bold; font-size: 2em; color: #fff; padding: 1.5% 3%;} /*Formantando as fontes dos links.*/
 .menu li a:hover {border:  1px solid #da6709;}              /*Retângulo laranja envolvendo os links.*/
 
 /*-------------------------------------------------------------------------------------------------------------------------*/
@@ -52,7 +52,7 @@ title h3 {font-size: 1.5em; color: #5C4033;}
 /*margin-bottom: cria uma margem entre as figuras e o que estiver em baixo*/
 .servico {width:  100%; background-color: #fff; text-align: left; border-radius: 7px; margin-bottom: 2%;}
 /*Cria as bordas superiores das imagens.*/
-.servico img {border-radius: 7px 7px 0 0; height: 500px; object-fit: cover; width: 700px;}
+.servico img {border-radius: 7px 7px 0 0; height: 400px; width: 600px; object-fit: cover; }
 /*Formatando texto.*/
 .inner {padding: 7%;}
 /*Formatando o título do texto.*/

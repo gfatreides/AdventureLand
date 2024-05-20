@@ -18,7 +18,7 @@
 		<!--Ícone (FontAwesome)-->                
 		<link rel="icon" href="imagens/icone_parque.jpg">   	
 		<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script> <!--Exibição e ocultação do menu.-->
-		<!--Configurando o caminho do ícone.>              
+		<!--Configurando o caminho do ícone.-->              
 	</head>
 
 	<body>
@@ -34,22 +34,14 @@
 				<a class="btn-close"><i class="fa fa-times"></i></a>
 				<ul> <!--Criando o menu.-->
 					<li><a href="attractions.html">ATRAÇÕES</a></li>
-					<li><a href="#">PASSAPORTE</a></li>
-					<li><a href="#">ALIMENTAÇÃO</a></li>
-					<li><a href="#">HOSPEDAGEM</a></li>
+					<li><a href="passport.html">PASSAPORTE</a></li>
+					<li><a href="food.html">ALIMENTAÇÃO</a></li>
+					<li><a href="accommodation.html">HOSPEDAGEM</a></li>
 					<li><a href="register.html">CADASTRO</a></li>
 				</ul> 
 			</nav>
 		</header>
 		
-		<!--Ação do botão x-->
-		<script>
-		//$(".btn-menu").click(function(){});
-		//$(".menu").show();
-		//$(".btn-close").click(function(){});
-		//$(".menu").hide();
-		</script>
-	
 		<!--BANNER-->
 		<!--Criando um banner.-->
 		<div class="banner">
@@ -63,72 +55,97 @@
 			<div class="title"></div>
 		</div>
 		
-		<main class="servicos">
-			<!--Casal no parque-->
-			<article class="servico">
-				<a href="#">
-					<img src="imagens/casal_parque.jpg" alt="Casal no parque." width="100%">  <!--1ª imagem-->
-				</a>
-				<div class="inner"> <!--Inserindo textos.-->
-					<a href="#">Um passeio romântico e divertido!</a>
-					<h4>Romance e diversão no mesmo lugar!</h4>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A inventore molestiae harum cupiditate itaque alias? Quam, totam eum laudantium dicta quae esse natus enim delectus iure perspiciatis sit maxime temporibus!</p>
-				</div>
-			</article>
-		
-			<!--Roda Gigante-->
-			<article class="servico">
-				<a href="#">
-					<img src="imagens/roda_gigantemulheres.jpg" alt="Amigas na roda gigante." width="100%">  <!--2ª imagem-->
-				</a>
-				<div class="inner"> <!--Inserindo textos.-->
-					<a href="#">Diversão e amizade!</a>
-					<h4>Compartilhe com amigos momentos de alegria!</h4>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A inventore molestiae harum cupiditate itaque alias? Quam, totam eum laudantium dicta quae esse natus enim delectus iure perspiciatis sit maxime temporibus!</p>
-				</div>
-			</article>
+		<!--IMAGENS DO PARQUE-->
+		<div>
+			<main class="servicos">
+				<!--Casal no parque-->
+				<article class="servico">
+					<a href="#">
+						<img src="imagens/casal_parque.jpg" alt="Casal no parque." width="100%">  <!--1ª imagem-->
+					</a>
+					<div class="inner"> <!--Inserindo textos.-->
+						<a href="#">Um passeio romântico e divertido!</a>
+						<h4>Romance e diversão no mesmo lugar!</h4>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A inventore molestiae harum cupiditate itaque alias? Quam, totam eum laudantium dicta quae esse natus enim delectus iure perspiciatis sit maxime temporibus!</p>
+					</div>
+				</article>
 			
-			<!--Cinema e Fantasia.-->
-			<article class="servico">
-				<a href="#">
-					<img src="imagens/henrypotter.jpg" alt="Mundo da fantasia." width="100%">  <!--3ª imagem-->
-				</a>
-				<div class="inner"> <!--Inserindo textos.-->
-					<a href="#">Sinta-se no cinema.</a>
-					<h4>Você e seus filhos darão asas a imaginação!</h4>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A inventore molestiae harum cupiditate itaque alias? Quam, totam eum laudantium dicta quae esse natus enim delectus iure perspiciatis sit maxime temporibus!</p>
-				</div>
-			</article>
-		</main>
+				<!--Roda Gigante-->
+				<article class="servico">
+					<a href="#">
+						<img src="imagens/roda_gigantemulheres.jpg" alt="Amigas na roda gigante." width="100%">  <!--2ª imagem-->
+					</a>
+					<div class="inner"> <!--Inserindo textos.-->
+						<a href="#">Diversão e amizade!</a>
+						<h4>Compartilhe com amigos momentos de alegria!</h4>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A inventore molestiae harum cupiditate itaque alias? Quam, totam eum laudantium dicta quae esse natus enim delectus iure perspiciatis sit maxime temporibus!</p>
+					</div>
+				</article>
+				
+				<!--Cinema e Fantasia.-->
+				<article class="servico">
+					<a href="#">
+						<img src="imagens/henrypotter.jpg" alt="Mundo da fantasia." width="100%">  <!--3ª imagem-->
+					</a>
+					<div class="inner"> <!--Inserindo textos.-->
+						<a href="#">Sinta-se no cinema.</a>
+						<h4>Você e seus filhos darão asas a imaginação!</h4>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A inventore molestiae harum cupiditate itaque alias? Quam, totam eum laudantium dicta quae esse natus enim delectus iure perspiciatis sit maxime temporibus!</p>
+					</div>
+				</article>
+			</main>
+		</div>
 		<!-- *************************************************************************************************************-->
 		
-		 <main>
-			<article class="servicos">
-				<section id="opinion">
-					<article>
-						<h2><br>OPINIÕES DOS VISITANTES</h2><br>
-						<img src="imagens/pessoas1.jpg" alt="Casal no parque." height="100" width="200"><br>
-						<p>Exploramos alguma das atrações inusitadas de AdventureLand para desfrutar de um dia surpreendente de natureza e arte.
-						Passeamos pelas trilhas e calçadões do Jardim Botânico para apreciar uma alameda tranquila cheia de borboletas, flores e
-						pássaros. Tudo foi incrível.</p>
-						<br>
-						
-						<img src="imagens/pessoas4.jpg" alt="Família no parque." height="100" width="200"><br>
-						<p>"O parque é incrível. O local é recheado de opões exclusivas de lojas e restaurantes, com uma atmosfera vibrante question-circle
-						que lembra os parques temáticos dos Estados Unidos."</p>
-						
+		<!--OPINIÕES DOS VISITANTES (Uso da tag article)-->
+		<div class="opinions">
+			<section id="opinion">
+				<article>
+					<h2><br>OPINIÕES DOS VISITANTES</h2><br>
+					<img src="imagens/pessoas1.jpg" alt="Casal no parque." height="100" width="200"><br>
+					<p>Exploramos alguma das atrações inusitadas de AdventureLand para desfrutar de um dia surpreendente de natureza e arte.
+					Passeamos pelas trilhas e calçadões do Jardim Botânico para apreciar uma alameda tranquila cheia de borboletas, flores e
+					pássaros. Tudo foi incrível.</p>
+					<br>
 					
-						<img src="imagens/MichaelJackson.jpg" alt="Foto de Michel Jackson quando criança." height="100" width="200">
-						<blockquote cite="htpps://www.pensador.com/parque_de_diversao/"><br>
-							<p>As pessoas me vêem em um parque de diversão, ou então com 
-							outras crianças, me divertindo, e elas nã param e pensam, a chamce de fazer as coisas diveritdas que as crianças
-							fazem: dormir um na casa do outro, festas, brincadeiras. Não havia Natal, nem feriados. Então você tenta compensar algumas desas perdas.</p><br><br>
-							<p>Michael Jackson</p>
-						</blockquote>
-					</article>
-				</section>
-			</article>
-		</main>
+					<img src="imagens/pessoas4.jpg" alt="Família no parque." height="100" width="200"><br>
+					<p>"O parque é incrível. O local é recheado de opões exclusivas de lojas e restaurantes, com uma atmosfera vibrante question-circle
+					que lembra os parques temáticos dos Estados Unidos."</p>
+					
+				
+					<img src="imagens/MichaelJackson.jpg" alt="Foto de Michel Jackson quando criança." height="100" width="200">
+					<blockquote cite="htpps://www.pensador.com/parque_de_diversao/"><br>
+						<p>As pessoas me vêem em um parque de diversão, ou então com 
+						outras crianças, me divertindo, e elas nã param e pensam, a chamce de fazer as coisas diveritdas que as crianças
+						fazem: dormir um na casa do outro, festas, brincadeiras. Não havia Natal, nem feriados. Então você tenta compensar algumas desas perdas.</p><br><br>
+						<p>Michael Jackson</p>
+					</blockquote>
+				</article>
+				
+				<!--Figuras ao lado das opiniões-->
+				
+				<table width="900"  border="0" cellspacing="12" >
+					<tr>
+						<td>
+							<p class="texto">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet quibusdam quo, accusamus temporibus facere ab accusantium reiciendis quos excepturi, dicta quia fuga autem sequi beatae velit animi tempora. Officiis, ex.
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque cumque reiciendis recusandae at sit fuga eum minima, quas accusamus atque, dolorum reprehenderit laudantium tenetur eveniet nobis soluta quia. Optio, magni.
+							</p>
+						<img class="imagem"  src="imagens/carro_betocarrero.jpg" alt="" width="100%">
+						</td>
+					</tr>
+					<!--2ª Imagem-->
+					
+					<!--Terceira imagem-->
+					<tr>
+						<td>
+							<p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam laborum cum error cumque doloribus id eveniet corrupti consectetur, distinctio quasi, vel voluptatem dolorem nisi possimus voluptatum molestias sunt ab illum!</p><br>
+							<img class="imagem" src="imagens/smat_day.png" alt="" width="100%">
+						</td>	
+					</tr>
+				</table>
+			</section>
+		</div>
 		
 		<!--Newsletter-->
 		<section class="newsletter">

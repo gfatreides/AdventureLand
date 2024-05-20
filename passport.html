@@ -1,0 +1,107 @@
+<!DOCTYPE html>  
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<!--Tamanho das telas.-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">			<!--Largura da tela igual a largura do dispositivo. Nível inicial do zoom igual a 1.--> 
+		<meta name="viewport" content="width= device-width, initial-scale=1">
+		<title> AdventureLand - Viva intensamente esta emoção!</title>                  <!--Título da página.-->
+		<meta name="description" content="Parque temático onde os sonhos se realizam."> <!--Descrição.-->
+		<meta name="keywords" content="Parque temático, férias, família, aventura.">    <!--Palavras chave.-->
+		<meta name="robots" content="index, follow">									<!--Motores de busca-->
+		<meta name="author" content="Gustavo Ferreira Alves">                           <!--Autor do site.-->
+		<link rel="stylesheet" href="css/passport.css">                                 <!--Ligação com a pasta style.css.-->
+		<!--Acesso aos ícones do site FONTAWESOME.-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> 
+		<!--Familia de fontes a ser usada (Google Font).-->
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
+		<!--Ícone (FontAwesome)-->                
+		<link rel="icon" href="imagens/icone_parque.jpg">   	
+		<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script> <!--Exibição e ocultação do menu.-->
+		<!--Configurando o caminho do ícone.-->              
+	</head>
+
+	<body>
+		<!--CABEÇALHO-->
+		<header class="cabecalho">
+			<!--Criando o logotipo.-->
+			<a href="index.html"><h1 class="logo" AdventureLand - Viva intensamente esta emoção!></h1></a>
+			<!--Criando o botão para o menu(ícone). 'fa-lg': aumenta o tamanho do ícone.-->
+			<button class="btn-menu"><i class="fa-solid fa-bars fa-lg"></i></button>
+			<!--Criando o menu-->
+			<nav class="menu">
+				<!--Criação e estilização do botão "x" para fechar o menu.-->
+				<a class="btn-close"><i class="fa fa-times"></i></a>
+				<ul> <!--Criando o menu.-->
+					<li><a href="attractions.html">ATRAÇÕES</a></li>
+					<li><a href="passport.html">PASSAPORTE</a></li>
+					<li><a href="food.html">ALIMENTAÇÃO</a></li>
+					<li><a href="accommodation.html">HOSPEDAGEM</a></li>
+					<li><a href="register.html">CADASTRO</a></li>
+				</ul> 
+			</nav>
+		</header>
+		
+		<!--Ação do botão x-->
+		<script>
+            $(".btn-menu").click(function(){});
+            $(".menu").show();
+            $(".btn-close").click(function(){});
+            $(".menu").hide();
+		</script>
+	
+		<!--BANNER-->
+		<!--Criando um banner.-->
+		<div class="banner">
+			<div class="title">
+				<h2> ADVENTURELAND: cada vez melhor! </h2>
+				<h3> Esse é o grande motivo para você planejar sua viagem para lá. </h3>
+			</div>
+			<div class="buttons">
+				<button class="btn-sobre">Nossa História</button>
+			</div>
+			<div class="title"></div>
+		</div>
+		
+		<div id="imagem">
+			<img src="imagens/montanharussa_sorriso.jpg" width="100%" alt="Crianças sorrindo.">
+		</div>
+		<!--Newsletter-->
+		<section class="newsletter">
+			<h2>Inscreva-se agora para conhecer nossas atrações!</h2>
+			<h3>Receba novidades, dicas e muito mais!</h3>
+			<!--Criando um formulário-->
+			<form>
+				<input type="email" placeholder="Seu email">
+				<button>Cadastrar</button>
+			</form>
+		</section>
+		
+		<!--RODAPÉ-->
+		<footer class="rodape">
+			<div class="social-icons">
+				<!--Icones obtidos no site https://fontawesome.com/-->
+				<a href="#"><i class="fa-brands fa-facebook"></i></a>
+				<a href="#"><i class="fa-brands fa-twitter"></i></a>
+				<a href="#"><i class="fa-brands fa-google"></i></a>
+				<a href="#"><i class="fa-brands fa-instagram"></i></a>
+				<a href="#"><i class="fa fa-envelope"></i></a>
+
+			<!--Criando botão.-->
+			<div class="buttons">  
+				<!--Seta no botão.--> 
+				<button class="btn-sobre">Sobre nós <i class="fa fa-question-circle"></i></button>              
+			</div>
+
+			</div>
+			<p class="copyright">
+				Copyright ShadowTech 2024. Todos os direitos reservados.
+			</p>
+		</footer>
+		<!--Jquery-->
+		<script> 
+			$(".btn-menu").click(function() {$(".menu").show();})   
+			$(".btn-close").click(function() {$(".menu").hide();}) 
+		</script>
+	</body>
+</html>
