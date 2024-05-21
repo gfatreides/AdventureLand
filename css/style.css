@@ -78,9 +78,11 @@ title h3 {font-size: 1.5em; color: #5C4033;}
 /*OPINIÕES DOS VISITANTES*/
 .opinions{width: 100%; float: left; padding: 3% 4%;}
 #opinion {display: flex; flex-wrap: wrap; justify-content: left;}
-#opinion > article {text-align: justify; display: flex; flex-direction: column; align-items: center; width: 300px; background-color: #da6709; border-radius: 10px; padding: 1rem;}
+#opinion > article > h2 {font-weight: bold;}
+/*Formatação dos elementos da caixa de opiniões.*/
+#opinion > article {text-align: justify; display: flex; flex-direction: column; align-items: center; width: 500px; background-color: #da6709; border-radius: 10px; padding: 1rem;}
 #opinion > article > img {width: 15rem; clip-path: circle();}
-
+/*Imagens ao lado*/
 .imagem{max-width: 100%;float: right; border-radius: 10px 10px 0 0; height: 400px; width: 950px;}
 .texto{text-align: justify; font-weight: bold;}
 /*-------------------------------------------------------------------------------------------------------------------------*/
